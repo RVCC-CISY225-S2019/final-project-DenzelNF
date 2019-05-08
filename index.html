@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>About Me</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/svg" sizes="96x96" href="Official.svg">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/nav-style.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#d0c045">
+    <meta name="msapplication-TileColor" content="#9f00a7">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <!-- skip link -->
+    <a href="#main" class="skip">Skip to main</a>
+    <!-- start of header -->
+    <header id="header" class="header">
+        <nav class="navbar">
+            <span class="navbar-toggle" id="js-navbar-toggle">
+                <i id="symbol-toggle" class="fas fa-bars"></i>
+            </span>
+            <a href="#header" class="logo">
+                <div class="logo-container">
+                    <img class="logo" src="images/OfficialLogo.svg" alt="Company Logo">
+                    <h1 class="page-title">Web Dev I</h1>
+                </div>
+            </a>
+            <ul class="main-nav" id="js-menu">
+                <li>
+                    <a href="#main" class="nav-links">Main</a>
+                </li>
+                <li>
+                    <a href="#about-me" class="nav-links">About Me</a>
+                </li>
+                <li>
+                    <a href="#pictures" class="nav-links">My Photos</a>
+                </li>
+                <li>
+                    <a href="#story" class="nav-links">A Story</a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-links">Contact Me</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- end of header -->
+    <!-- start of main content -->
+    <!--    why put tabindex of -1 on skiplink target -  https://axesslab.com/skip-links/ -->
+    <main id="main" tabindex="-1" class="main">
+        <!-- start of bio section -->
+        <section class="hero">
+            <div class="content">
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="images/Denzelpic-lrg.png">
+                    <source media="(min-width: 960px)" srcset="images/Denzelpic-med.png">
+                    <source media="(min-width: 640px)" srcset="images/Denzelpic-small.png"> <img class="my-picture" src="images/Denzelpic-xsmall.png" alt="This is a picture of me"> </picture>
+                <p class="my-name">Denzel Forster</p>
+                <p class="my-location">Middlesex, NJ</p>
+            </div>
+        </section>
+        <section id="about-me" class="about-me">
+            <div class="content">
+                <div class="about-content">
+                    <p class="iama">I want to be</p>
+                    <p class="my-info">A Information Systems Specialist</p>
+                    <p class="iama">I currently work for</p>
+                    <p class="my-info">A company called Atlantic Systems inc. They made a POS software in house, that is specfically design for liquor stores and I am a Call Coordinator there.</p>
+                    <p class="iama">In my free time, I enjoy</p>
+                    <p class="my-info">to hangout with friends, play video-games, and most importantly sleep</p>
+                </div>
+            </div>
+        </section>
+        <!-- end of bio section -->
+        <div class="back-to-top">
+            <a href="#">Back to Top</a>
+        </div>
+        <!-- start of photo gallery -->
+        <h3> Gallery </h3>
+        <section id="pictures" class="gallery">
+            <figure>
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="images/DesertSky-lrg.JPG">
+                    <source media="(min-width: 960px)" srcset="images/DesertSky-med.JPG">
+                    <source media="(min-width: 640px)" srcset="images/DesertSky-small.JPG"> <img class="Cali" src="images/DesertSky-xsmall.JPG" alt="Apple Valley"> </picture>
+                <figcaption> Desert Sky, &copy; Denzel Forster, All Rights Reserved </figcaption>
+            </figure>
+            <hr class="mobile-first">
+            <figure>
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="images/Adi-lrg.PNG">
+                    <source media="(min-width: 960px)" srcset="images/Adi-med.PNG">
+                    <source media="(min-width: 640px)" srcset="images/Adi-small.PNG"> <img class="Cali" src="images/SixFlags-xsmall.PNG" alt="Apple Valley"> </picture>
+                <figcaption> Denzel and Adi, &copy; Denzel Forster, All Rights Reserved </figcaption>
+            </figure>
+            <hr class="mobile-first">
+            <figure>
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="images/VBeach-lrg.PNG">
+                    <source media="(min-width: 960px)" srcset="images/VBeach-med.PNG">
+                    <source media="(min-width: 640px)" srcset="images/VBeach-small.jpg"> <img class="Cali" src="images/VBeach-xsmall.PNG" alt="Venice Beach"> </picture>
+                <figcaption> Venice Beach at Sunset, &copy; Denzel Forster, All Rights Reserved </figcaption>
+            </figure>
+            <hr class="mobile-first">
+            <figure>
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="images/Vwalk-lrg.JPG">
+                    <source media="(min-width: 960px)" srcset="images/Vwalk-med.JPG">
+                    <source media="(min-width: 640px)" srcset="images/Vwalk-small.jpg"> <img class="Cali" src="images/Vwalk-xsmall.JPG" alt="Venice Beach"> </picture>
+                <figcaption> Venice Beach Walkway, &copy; Denzel Forster, All Rights Reserved </figcaption>
+            </figure>
+            <hr class="mobile-first">
+            <figure>
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="images/SantaGate-lrg.JPG">
+                    <source media="(min-width: 960px)" srcset="images/SantaGate-med.JPG">
+                    <source media="(min-width: 640px)" srcset="images/SantaGate-small.jpg"> <img class="Cali" src="images/SantaGate-xsmall.JPG" alt="Santa Monica"> </picture>
+                <figcaption> Santa Monica Pier Enterance, &copy; Denzel Forster, All Rights Reserved </figcaption>
+            </figure>
+            <hr class="mobile-first">
+            <figure>
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="images/SantaWheel-lrg.JPG">
+                    <source media="(min-width: 960px)" srcset="images/SantaWheel-med.JPG">
+                    <source media="(min-width: 640px)" srcset="images/SantaWheel-small.jpg"> <img class="Cali" src="images/SantaWheel-xsmall.JPG" alt="Santa Monica"> </picture>
+                <figcaption> Santa Monica Ferris Wheel, &copy; Denzel Forster, All Rights Reserved </figcaption>
+            </figure>
+        </section>
+        <!-- end of photo gallery -->
+        <div class="back-to-top">
+            <a href="#">Back to Top</a>
+        </div>
+        <hr class="mobile-first">
+        <!-- start of Sherlock Holmes story -->
+        <article id="story" class="story">
+            <h1> Image Hover Effect</h1>
+            <div class="story-body">
+                <inline class="padded-dropcap"> A </inline>
+                <p>picture can be worth a thousand words and with a image hover effect it can be worth even more. When a user hovers their cursor over a image it can do a variety of different things. It can make the image pop out, shrink in, shake, on this web page it has a transparency to it. This makes a decent picture become a interesting picture just by using CSS. The CSS code is actually predefined algorithms that enable you to add special effects to your images like the ones talked about before and much much more. </p>
+                <p>The concept of editing photos is a unique skill that can have a positive and/or negative effect to them. As a whole photo editing is a great tool to enhance an image or to make it more interesting. For example, city light can be the center focus of a piece and due to the city, it can come across as dull, maybe bleak. But enhancing those lights can make an old city turn in to a one that is young again. Photos can change so much it could make a person feel completely different or look different too, but we’ll get to that. Imagine New York City with every person needs to be somewhere and capture that moment at night. Seems cool but turn the photo black and white and add a color to the picture once you hover the cursor of it. Wouldn’t that have more to say than just a picture of New York?</p>
+                <p> Too much of photo editing can steer away from the original piece for example photoshop. You can practically put a toilet for my head and make it seem like I was born with it. Photoshop/editing is all over movies, and social media, people making their bodies slimmer, butts bigger and most popular teeth whiter. This just alters the person and their appearance and makes them look not like them. Of course, its fine to alter yourself on photoshop, but then calling it your true self afterwards isn’t right.
+                </p>
+                <p>In other words, images but using an image hover effect can make it even better. Why settle for just average while you can add a little flair to your work of art.</p>
+
+            </div>
+        </article>
+        <!-- end of Sherlock Holmes story -->
+    </main>
+    <!-- end of main content -->
+    <div class="back-to-top">
+        <a href="#">Back to Top</a>
+    </div>
+    <hr class="mobile-first">
+    <!-- start of contact form -->
+    <section id="contact" class="form-container">
+        <h1>Get in Touch</h1>
+        <br class="mobile-first"><br class="mobile-first">
+        <form method="POST" action="https://formspree.io/forsterdenzel@yahoo.com">
+            <fieldset>
+                <legend>Please Feel Free to Contact Me</legend>
+                <label for="mail">Email</label>
+                <br>
+                <input type="email" id="mail" name="user_email">
+                <br>
+                <br>
+                <form class="contact">
+                    <fieldset>
+                        <legend>I would like a reply</legend>
+                        <label for="reply-yes">Yes</label>
+                        <input type="radio" id="reply-yes" name="reply" value="yes" checked>
+                        <br>
+                        <br>
+                        <label for="reply-no">No</label>
+                        <input type="radio" id="reply-no" name="reply" value="no" checked>
+                        <br>
+                        <br>
+                    </fieldset>
+                    <br class="mobile-first"><br class="mobile-first">
+                    <br>
+                    <label for="msg">Message</label>
+                    <input type="textarea" id="message" name="message">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <button class="button" type="submit">Send Message</button>
+                </form>
+            </fieldset>
+        </form>
+    </section>
+    <!-- end of contact form -->
+    <!-- start of footer -->
+    <footer>
+        <br class="mobile-first"><br class="mobile-first">
+        &copy; Denzel Forster, All Rights Reserved
+    </footer>
+    <div class="back-to-top">
+        <a href="#">Back to Top</a>
+    </div>
+    <!-- end of footer -->
+    <br class="mobile-first"><br class="mobile-first">
+    <!-- start of javascript for nav toggle -->
+    <script>
+        let mainNav = document.getElementById('js-menu');
+        let navBarToggle = document.getElementById('js-navbar-toggle');
+        let symbolToggle = document.getElementById('symbol-toggle');
+        async type = "text/javascript"
+        src = "//cdn.carbonads.com/carbon.js?serve=CKYIE23M&placement=ianlunncouk"
+        id = "_carbonads_js" >
+
+            navBarToggle.addEventListener('click', function() {
+                mainNav.classList.toggle('active');
+                if (symbolToggle.classList.contains('fa-bars')) {
+                    symbolToggle.classList.remove('fa-bars');
+                    symbolToggle.classList.add('fa-times');
+                } else {
+                    symbolToggle.classList.remove('fa-times');
+                    symbolToggle.classList.add('fa-bars');
+                }
+            });
+
+    </script>
+    <!-- end of javascript for nav toggle -->
+</body>
+
+</html>
